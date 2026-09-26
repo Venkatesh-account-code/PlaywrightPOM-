@@ -80,5 +80,5 @@ test('Child Window New Page', async function ({ browser }) {
    await page.locator('#username').fill(domain);
    console.log(await page.locator('#username').inputValue());// inputValue() extracts any value in the userinput fields.
 });
-
+//UI Basics test 
 
